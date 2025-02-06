@@ -1,2 +1,7 @@
 PORT=8080
 MONGODB_URL = mongodb+srv://samiksha:password@cluster.ghgg.mongodb.net
+
+ACCESS_TOKEN_SECRET =iiiiiiiiiiiiii
+ACCESS_TOKEN_EXPIRY=1d
+REFRESH_TOKEN_SECRET=9788
+REFRESH_TOKEN_EXPIRY=10d

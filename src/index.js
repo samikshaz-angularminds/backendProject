@@ -4,7 +4,9 @@ import { app } from "./app.js";
 
 // this is giving an error
 // dotenv.config({path:"../env"})
-dotenv.config();
+dotenv.config({
+    path: "./.env"
+});
 
 connectDB()
 .then(()=>{
